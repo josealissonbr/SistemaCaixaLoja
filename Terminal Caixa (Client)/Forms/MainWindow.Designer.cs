@@ -44,7 +44,8 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackgroundImage = global::SistemaCaixaLoja.Properties.Resources.Screenshot_1;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(75)))), ((int)(((byte)(106)))));
+            this.menuStrip1.BackgroundImage = global::SistemaCaixaLoja.Properties.Resources.Screenshot_11;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.caixaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -55,7 +56,8 @@
             // 
             // caixaToolStripMenuItem
             // 
-            this.caixaToolStripMenuItem.BackgroundImage = global::SistemaCaixaLoja.Properties.Resources.Screenshot_1;
+            this.caixaToolStripMenuItem.BackgroundImage = global::SistemaCaixaLoja.Properties.Resources.Screenshot_11;
+            this.caixaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.caixaToolStripMenuItem.Name = "caixaToolStripMenuItem";
             this.caixaToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.caixaToolStripMenuItem.Text = "Caixa";
