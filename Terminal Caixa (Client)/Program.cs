@@ -16,7 +16,7 @@ namespace SistemaCaixaLoja
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Forms.MainWindow());
+            Application.Run(new Forms.PDVMainWindow());
         }
     }
 }
